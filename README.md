@@ -24,11 +24,11 @@ Consits in a CRUD, where the users could see, create, update and delete the giph
 
 ## wireframes
 
-Iphone:
-<img src="" />
+Iphone:<br>
+<img src="./iphone12.png" />
 
-ipad:
-<img src="" />
+ipad:<br>
+<img src="ipad.png" />
 
-PC:
-<img src="" />
+PC:<br>
+<img src="pc.png" />
