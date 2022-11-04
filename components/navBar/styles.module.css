@@ -1,0 +1,17 @@
+.navBar{
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  width: 3rem;
+}
+
+@media screen and (max-width: 420px) {
+  .title{
+    display: none;
+  }
+}

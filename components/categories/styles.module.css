@@ -1,0 +1,50 @@
+.categoriesContainer{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.buttonCategory{
+  height: 2rem;
+  width: 15%;
+  line-height: 0%;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-size: 150%;
+}
+
+.buttonCategory:hover{
+  background-color: rgb(146, 101, 189);
+}
+
+@media screen and (max-width: 990px) {
+  .buttonCategory{
+    font-size: 100%;
+    font-weight: bold
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .buttonCategory{
+    font-size: 70%;
+    font-weight: bold
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .categoriesContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  .buttonCategory{
+    width: 30%;
+    font-size: 50%;
+    font-weight: bold
+  }
+}

@@ -1,0 +1,24 @@
+.modalButton{
+  display: flex;
+  gap: 1rem;
+}
+
+.button{
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+.dialog{
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  height: 15rem;
+}
+
+.title, .select{
+  border-radius: 5px;
+}

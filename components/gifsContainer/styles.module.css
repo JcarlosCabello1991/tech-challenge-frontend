@@ -1,0 +1,24 @@
+.gif{
+  width: 100%;
+  height: 10rem;
+  border-radius: 5px;
+}
+
+.gifContainer{
+ width: 80%;
+ margin-top: 1rem;
+ display: grid;
+ justify-content: center;
+ grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+ gap: 1rem;
+}
+
+.gifCard{
+  
+}
+
+.footerGifCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
